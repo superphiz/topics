@@ -18,4 +18,6 @@ These are the crtieria that help me determine whether I align with a staking ser
 
 **Single Chain** - I do not align with the concept that large staking services can develop business by operating on many chains. That's not a decentralizing service to anyone - it's a centralizing service for everyone. I support staking services that operate exclusively on Ethereum. While I admit to being a bit of an Ethereum maximalist to some extent, that's not the motive here, it's just that staking on multiple chains betrays a profit motive rather than a chain success motive. 
 
+**Audited** - Strong staking platforms have several rounds of published audits by known auditors and they've disclosed vulnerabilities that they've corrected. They are likely to participate in bug bounty programs like Immunefi.
+
 So, yeah. These are my values and the ways I evaluate a staking platform. It's why my list is so short, currently I support Rocket Pool, Diva, and Stakewise v3. You may be right to point out that my high standards have enabled shady operators to expand more quickly than quality operators can proliferate, but if we're going to build a healthy network the community and stakeholders must choose the best providers.
