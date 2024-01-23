@@ -1,0 +1,12 @@
+Dankrad 3/24/2022: https://dankradfeist.de/ethereum/2022/03/24/run-the-majority-client-at-your-own-peril.html
+
+https://ethstaker.cc/incidents
+
+Besu fault 1/6/2024
+
+Nethermind fault 1/21/2024
+
+
+DCInvestor tweet 1/22/2024: https://twitter.com/iamDCinvestor/status/1749410364666606075
+
+Brian Armstrong replies, "Taking a look": https://twitter.com/brian_armstrong/status/1749552489509392696
