@@ -1,0 +1,45 @@
+
+
+Originally posted January 9, 2016 to /r/btc
+
+
+
+    Shortly after Satoshi Nakamoto publicly released bitcoin to the world he chose two people who would have a significant stewardship role over bitcoin: Gavin Andresen and Theymos (who has a real name but we don't use it often and it might be seen as doxxing).
+
+    Satoshi Nakamoto decided it was time for him to end his presence with bitcoin so that his present activities weren't inextricably linked to the growth of bitcoin. (He chose not to be a dictator)
+
+    Gavin Andresen was the original lead developer of bitcoin-core after Satoshi went underground but he later took a role as the "Chief Scientist" of bitcoin so that others could focus on developing bitcoin-core. This prevented Gavin from being a dictator of bitcoin (benevolent or otherwise). Theymos managed the public relations side of bitcoin by running bitcointalk.org and moderating /r/bitcoin.
+
+    Many of the remaining bitcoin-core committers along with Theymos (mod of /r/bitcoin and owner of bitcointalk.com) became intertwined with a for-profit company called Blockstream.
+
+    The current bitcoin-core committers began "re-envisioning" the bitcoin-core roadmap to include blockstream innovations, and the potential for them to profit handsomely. The primary innovation is moving transactions off of the bitcoin network and onto sidechains (see: Lightning Network) that could be more profitable, in this case, bitcoin would only be seen as a settlement layer with very few transactions while other networks would do the heavy lifting. From this point forward, I may refer to the github for bitcoin-core as "blockstream-core" to point out the shift in vision, please note that blockstream-core is not a real software product.
+
+    The chief control point that blockstream-core has leveraged is the size of every blockchain block. Satoshi set the size of each block to 1Mb to reduce spam and openly described the need for that to increase as transaction volume increased. Blockstream-core uses this 1Mb limit to limit the number of transactions in each bitcoin block and promote the illusion that bitcoin is at full capacity, and that raising the 1Mb limit would be disastrous for bitcoin. (Though they have recently acknowledged that the blocksize should be increased, there isn't much evidence of this occurring in blockstream-core.)
+
+    Gavin Andresen and Mike Hearn, adherents to the original vision of bitcoin as described by Satoshi Nakamoto in the white paper were upset by unwillingness of blockstream-core to increase the blocksize limit and forked bitcoin-core into clients that would accept larger blocksizes, like bitcoin XT and bitcoin-unlimited (in this case, a fork keeps the original coins, but makes a change to increase the blocksize so that the bitcoin nodes can handle larger blocks, thus eliminating the need for the sidechains mentioned earlier). Note that prior to the blockstream hostage crisis other clients were welcomed and encouraged because they promoted a healthy environment for bitcoin to flourish.
+
+    The blockstream-core folks worked diligently to silence the voices of "Satoshi's bitcoin" by publicly regarding anyone who ran a forked bitcoin node as an "altcoin user", and removing discussions of "Satoshi's bitcoin" by heavily censoring their comments in /r/bitcoin. Theymos, the moderator of /r/bitcoin states that there is no debate, while quietly banning and deleting any comments and users that do not support blockstream-core. Somewhere along this path Theymos made the mistake that both Satoshi and Gavin avoided - he decided that his most important role was that of dictator. I don't say this resentfully, it's just a matter of record.
+
+    Many adherents of Satoshi's bitcoin (rightfully) felt persecuted (and were probably banned) from /r/bitcoin, so they moved to a new subreddit, /r/btc.
+
+    The CEO of coinbase stated publicly that he was interested in researching what was best for bitcoin, and this included running bitcoin nodes using an increased blocksize limit ("Satoshi's bitcoin"), the blockstream-core followers became upset and since they are managing the github for bitcoin.org, they issued a pull request that removed coinbase.com from bitcoin.org because it promotes an "altcoin" (note, in this case, the altcoin is bitcoin with an increased blocksize limit).
+
+    Many people on all sides of the argument believed that Coinbase is a company acting in the best interest of bitcoin - not just Satoshi's bitcoin or blockstream-core, and they recognized that removing coinbase from bitcoin.org would confuse users and lead to questions about coinbase's legitimacy for new users.
+
+    The community posted another issue on github for the re-addition of coinbase back onto bitcoin.org, and there were numerous "ACK" (agreement) statements, but rather than acknowledging the will of the community, Theymos stated that this is not a vote. This is ironic for many adherents to Satoshi's bitcoin because one of the informal demonstrations of support that one frequently sees on the bitcoin-core github are "ACK" statements from the community suggesting that the community is in favor of a particular movement - anyone familiar with the situation recognizes that in the past several months ACK statements do not reflect the will of the bitcoin community, but rather the will of the blockstream-core community. They are an interesting sideshow/illusion that makes it appear that the overall community agrees with the blockstream-core direction.
+
+Added June 30, 2016 
+
+    Since the appearance of ASIC miners, bitcoin mining has been moving to mining farms in China due to low chip production costs and cheap electricity. From 2014-2016 four large solo miners in China accounted for about 90% of found blocks. (Please help me verify the accuracy of this)
+
+    Beginning December of 2015, many blocks were at or near the 1MB capacity. Though Blockstream Core had indicated a willingness to increase to a 2MB blocksize, this never materialized. Instead, unconfirmed transactions were described as dust, or the sender was blamed for choosing not to send enough of a fee for the transaction. This caused public frustration for casual users who simply wanted to use the network without engaging in politics.
+
+    Around this time, Andreas Antonopolous began describing a concept of "failing gracefully", suggesting that many historical technologies, like the Internet, were perpetually on the brink of being overloaded, but they were successfully maintained by "kicking the can down the road", or only implementing small fixes that would allow the technology to work for a few more months/years. This appeared to be a change in sentiment from Andreas who spent several months lamenting the impending crisis.
+
+    In February, 2016 representatives from Blockstream Core went to China to meet with miners regarding Segregrated Witness and the block size. It appeared to those in /r/btc that the intent of Blockstream Core was to pressure Chinese miners to side with Blockstream Core's 1MB block size limit and reject a 2MB+ limit. By all outward appearances this goal was achieved.
+
+    "The Terminator" is a post made to a Chinese language forum that described a concensus by miners in China to switch to the Bitcoin Classic client and endorse a 2MB hard fork. This is supposedly in response to miners feeling manipulated by the Blockstream Core Devs during the meeting in China and their failure to implement the 2MB hard fork in the Blockstream Core client. At the time of this comment, the Terminator has not been validated, and posts referring to it have been removed from /r/bitcoin. It does appear to be acknowledged by some people with knowledge of the bitcoin mining community in China on Twitter.
+
+tl;dr: Theymos allowed himself to become a dictator of bitcoin and is currently having some success subverting the original will of Satoshi Nakamoto by becoming deeply involved with a company called blockstream and promoting a malicious groupthink so aggressively that he may actually believe he's doing what's best for bitcoin.
+
+I added a few edits to this. Clarifications and suggestions are welcome.
